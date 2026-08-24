@@ -4,7 +4,7 @@
 
 ## Objective
 
-Demonstrate a CI/CD gate that enforces security policies on LLM inputs and outputs. Show that simple regex-based guardrails block obvious attacks but can be bypassed by paraphrased or evasive prompts, highlighting the need for layered defense.
+A CI/CD gate that enforces security policies on LLM inputs and outputs. Show that simple regex-based guardrails block obvious attacks but can be bypassed by paraphrased or evasive prompts, highlighting the need for layered defense.
 
 ## Architecture
 
@@ -19,7 +19,7 @@ Demonstrate a CI/CD gate that enforces security policies on LLM inputs and outpu
 1. `pip install -r requirements.txt`
 2. `python run_checks.py`
 
-## Limitation (Important)
+## Limitation
 
 This implementation uses **regular expression pattern matching** to detect malicious prompts and outputs. It can be bypassed by:
 
