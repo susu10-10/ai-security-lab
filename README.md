@@ -27,4 +27,4 @@ This implementation uses **regular expression pattern matching** to detect malic
 - Using obfuscation, encoding, or indirect injection (hiding instructions in external content)
 - Semantic attacks that don't rely on exact keywords
 
-This is not a flaw in the lab it reflects a real, unsolved challenge in LLM security. Effective defense requires multiple layers: semantic analysis, model-level instruction hierarchy, output filtering, least-privilege tool access, and human-in-the-loop review. This lab is a starting point for understanding those challenges.
+This is not a flaw in the lab, it reflects a real, unsolved challenge in LLM security. Effective defense requires multiple layers: semantic analysis, model-level instruction hierarchy, output filtering, least-privilege tool access, and human-in-the-loop review. This lab is a starting point for understanding those challenges.
