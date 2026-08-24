@@ -1,0 +1,18 @@
+# policy_config.yaml
+prompt_injection_patterns:
+  - "ignore previous instructions"
+  - "ignore all previous instructions"
+  - "reveal (your )?(system )?prompt"
+  - "forget everything"
+  - "you are now"
+  - "developer mode"
+
+output_pii_patterns:
+  - "\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,}\\b"
+
+output_secret_patterns:
+  - "SK-[A-Za-z0-9]+"
+  - "api[_-]?key[=:]\\s*\\w+"
+  - "secret[=:]\\s*\\w+"
+
+max_output_length: 200
