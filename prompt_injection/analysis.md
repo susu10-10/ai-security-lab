@@ -13,7 +13,7 @@
 
 ## Results Summary
 
-### Red_team.py – Two Consecutive Runs
+### Red_team.py: Two Consecutive Runs
 
 | Attack Type | Run 1 – Leaked? | Run 2 – Leaked? |
 |------------|-----------------|-----------------|
@@ -85,7 +85,7 @@
 6. **Model alignment is not robust.**  
    Despite many refusals, the model is not truly secure. It can be persuaded to reveal the system prompt through simple rephrasing, and the same prompt may succeed or fail depending on subtle changes in wording or sampling.
 
-## Implications for Defenders
+## Implications
 
 - **Do not rely on keyword blocklists** as the primary defense. They are easily bypassed and create operational friction.
 - **Treat the system prompt as sensitive data.** Avoid embedding secrets directly in the system prompt if possible; use a secrets manager and pass values only when necessary.
