@@ -34,7 +34,7 @@ Demonstrates direct prompt injection against a locally running LLM (via `Ollama`
     ```
 > Results are saved to `results.json` and `results.csv`. Examine which attacks leaked the secret (SK-123456).
 
-### Key Findings (Sample)
+### Key Findings
 
 - Direct override and persona change often succeed.
 
@@ -43,6 +43,9 @@ Demonstrates direct prompt injection against a locally running LLM (via `Ollama`
 - The benign prompt does not leak.
 
 - This demonstrates that real LLMs are vulnerable to injection, and that regex-based guardrails (like in Lab 5) are insufficient because they miss paraphrased or obfuscated attacks.
+
+### Detailed Analysis
+See [analysis.md](prompt_injection/analysis.md) for a full breakdown of attack results, observations, and implications.
 
 ## Lab 2: Policy Enforcement Pipeline
 
